@@ -10,6 +10,19 @@ sequential_nav: none
 
 % Include stop summary
 
+## Development
+
+```{include} development/index.rst
+   :start-after: .. Include start summary
+   :end-before: .. Include stop summary
+```
+
+```{toctree}
+:maxdepth: 2
+
+development/index
+```
+
 ## Packaging
 
 ```{include} packaging/index.rst
