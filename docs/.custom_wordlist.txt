@@ -161,5 +161,7 @@ waffle_pi
 websocket
 Wifi
 wirelessly
+worktree
+worktrees
 xml
 yaml
