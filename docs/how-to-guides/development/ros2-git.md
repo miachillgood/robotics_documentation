@@ -5,7 +5,7 @@ Switching from one branch to another, say from `jazzy` to `lyrical`,
 implies not only changing the ROS 2 distribution but also the underlying operating system,
 in the case from Ubuntu 24.04 to 26.04.
 As reinstalling the host machine to port a simple git patch is obviously impractical,
-ROS 2 developers rely on virtualization to carry their daily work.
+ROS 2 developers rely on containerization to carry their daily work.
 
 We showcase hereafter how Workshop alleviates this task using [Git Worktree](https://git-scm.com/docs/git-worktree).
 
