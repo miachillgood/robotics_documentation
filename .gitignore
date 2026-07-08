@@ -14,3 +14,4 @@ docs/.sphinx/venv/
 docs/.sphinx/warnings.txt
 package*.json
 venv/
+.workshop.lock

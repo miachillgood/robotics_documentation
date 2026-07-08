@@ -1,0 +1,30 @@
+name: robotics-docs-dev
+base: ubuntu@24.04
+sdks:
+  - name: opencode
+    channel: latest/stable
+  - name: project-inference-snap
+  - name: project-tools
+    plugs:
+      ssh-agent:
+        interface: ssh-agent
+  - name: system
+    plugs:
+      sphinx-build:
+        interface: tunnel
+        endpoint: 8042
+    slots:
+      inference-snap:
+        interface: tunnel
+        endpoint: localhost:8336
+actions:
+  opencode: opencode "$@"
+  docs-html: |
+    make -C docs/ VENVDIR="$HOME/.docs-venv" html
+  docs-run: |
+    make -C docs/ VENVDIR="$HOME/.docs-venv" run
+  docs-clean: |
+    make -C docs/ clean-doc
+  docs-check: |
+    make -C docs/ VENVDIR="$HOME/.docs-venv" spelling linkcheck woke lint-md
+  ssh-import-id-gh: ssh-import-id-gh "$@"

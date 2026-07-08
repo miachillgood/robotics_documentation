@@ -1,0 +1,4 @@
+apt-get update
+apt-get install make python3-venv shellcheck
+
+snap install node --classic
