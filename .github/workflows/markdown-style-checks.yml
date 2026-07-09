@@ -7,20 +7,15 @@ on:
     - main
     paths:
     - 'docs/**'   # Only run on changes to the docs directory
-    - '.github/workflows/markdown-style-checks.yml'
   pull_request:
     branches:
     - '*'
     paths:
     - 'docs/**'   # Only run on changes to the docs directory
-    - '.github/workflows/markdown-style-checks.yml'
-  workflow_dispatch:  # diverged from upstream, keep as is
 
 jobs:
   markdown-lint:
-    runs-on: ubuntu-22.04
-    permissions:
-      contents: read
+    runs-on: ubuntu-24.04
     steps:
     - uses: actions/checkout@v5
       with:

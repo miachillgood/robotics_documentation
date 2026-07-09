@@ -1,0 +1,44 @@
+diff --git a/docs/_dev/.pymarkdown.json b/docs/_dev/.pymarkdown.json
+index 2c4c669..261ebed 100644
+--- a/docs/_dev/.pymarkdown.json
++++ b/docs/_dev/.pymarkdown.json
+@@ -1,6 +1,39 @@
+ {
+     "plugins": {
+         "selectively_enable_rules": true,
++        "heading-increment": {
++            "enabled": true
++        },
++        "list-indent": {
++            "enabled": true
++        },
++        "no-trailing-spaces": {
++            "enabled": true
++        },
++        "no-reversed-links": {
++            "enabled": true
++        },
++        "no-multiple-blanks": {
++            "enabled": true
++        },
++        "line-length": {
++            "enabled": true,
++            "line_length": 85,
++            "code_blocks": false
++        },
++        "no-multiple-space-atx": {
++            "enabled": true
++        },
++        "no-duplicate-heading": {
++            "enabled": false
++        },
++        "single-title": {
++            "enabled": true
++        },
++        "no-inline-html": {
++            "enabled": true,
++            "allowed_elements": ["br"]
++        },
+         "heading-style": {
+             "enabled": true,
+             "style": "atx"
