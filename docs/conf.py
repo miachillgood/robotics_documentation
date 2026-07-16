@@ -34,7 +34,7 @@ copyright = f"{datetime.date.today().year} CC-BY-SA, {author}"
 html_title = project + " documentation"
 
 # Documentation website URL
-ogp_site_url = "https://ubuntu.com/robotics/docs/"
+ogp_site_url = f"https://ubuntu.com/robotics/docs/{os.environ.get('READTHEDOCS_VERSION', 'local')}/"
 
 # Preview name of the documentation website
 # TODO: To use a different name for the project in previews, update the next line.
@@ -118,7 +118,7 @@ slug = "robotics/docs"
 #######################
 
 # Use the public documentation URL as the canonical URL
-html_baseurl = "https://ubuntu.com/robotics/docs/"
+html_baseurl = f"https://ubuntu.com/robotics/docs/{os.environ.get('READTHEDOCS_VERSION', 'local')}/"
 
 # sphinx-sitemap uses html_baseurl to generate the full URL for each page:
 sitemap_url_scheme = "{link}"
