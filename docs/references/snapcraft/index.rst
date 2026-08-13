@@ -1,5 +1,7 @@
 :sequential_nav: next
 
+.. _reference-snapcraft-home:
+
 Snapcraft
 =========
 
@@ -16,13 +18,13 @@ Snapcraft technical reference for snapping your ROS applications.
    Extensions <extensions>
    faq
 
-* :doc:`Plugins <./plugins>`
+* :ref:`Plugins <reference-snapcraft-plugins>`
    The Snapcraft plugins to build ROS parts.
 
-* :doc:`Extensions <./extensions>`
+* :ref:`Extensions <reference-snapcraft-extensions>`
    The Snapcraft extensions to help you snap ROS applications.
 
-* :doc:`FAQ & Troubleshooting <./faq>`
+* :ref:`FAQ & Troubleshooting <reference-snapcraft-faq-troubleshooting>`
    ROS & ROS 2 snap common questions and troubleshooting.
 
 See Also

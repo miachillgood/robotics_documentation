@@ -1,3 +1,5 @@
+(reference-snapcraft-faq-troubleshooting)=
+
 # FAQ & Troubleshooting
 
 This page reference ROS and ROS 2 snap  common questions and troubleshooting:
@@ -51,7 +53,7 @@ Make sure that these are in good order before attempting to create a snap.
 
 ## Can my snap save data on the host?
 
-* The snap defines some [environment variables for data and file storage](/explanations/snaps/snap-data-and-file-storage.rst)
+* The snap defines some [environment variables for data and file storage](#explanations-snaps-snap-data-and-file-storage-topic-guide)
   pointing to different locations that a snap can write to
   depending on the use case of your data.
 * You can save data that are common across revisions of a snap.
@@ -131,7 +133,7 @@ If you see something similar to:
   Don’t worry, even if you see this error,
   the messages are going to be transmitted (just not through shared memory).
   If you want to use the shared memory of ROS 2 within snap,
-  visit: [ROS 2 shared memory in snap](/how-to-guides/packaging/ros-2-shared-memory-in-snaps.md)
+  visit: [ROS 2 shared memory in snap](#how-tos-packaging-ros-2-shared-memory-in-snaps)
 
 ## At runtime, the snap shows an error similar to
 
@@ -183,7 +185,7 @@ GPG key server: keyserver.ubuntu.com
 
 ## ROS snap with shared memory doesn't receive or send data on topic
 
-* If you have properly followed the [ROS snap and shared memory how to guide](/how-to-guides/packaging/ros-2-shared-memory-in-snaps.md)
+* If you have properly followed the [ROS snap and shared memory how to guide](#how-tos-packaging-ros-2-shared-memory-in-snaps)
   but still have problems,
   make sure that the different processes publishing/subscribing ROS 2 data over
   shared memory are using the same `USER`.

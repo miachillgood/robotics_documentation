@@ -1,3 +1,5 @@
+.. _reference-snapcraft-plugins:
+
 Snapcraft Plugins
 =================
 

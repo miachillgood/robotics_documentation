@@ -1,5 +1,7 @@
 :sequential_nav: next
 
+.. _tutorials-snaps-core-learning-roadmap:
+
 From zero to hero: deploy a robot with snaps and Ubuntu Core
 ============================================================
 

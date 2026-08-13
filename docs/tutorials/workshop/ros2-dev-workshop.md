@@ -1,3 +1,5 @@
+(tutorials-workshop-ros2-dev-getting-started)=
+
 # Getting started with Workshop
 
 [**Workshop**](https://canonical-workshop.readthedocs-hosted.com/)
