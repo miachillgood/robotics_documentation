@@ -1,3 +1,5 @@
+.. _explanations-snaps-snap-data-and-file-storage-topic-guide:
+
 Snap data and file storage
 ==========================
 

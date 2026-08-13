@@ -39,7 +39,7 @@ robotics applications through the following key phases:
 
 - **Snapcraft**: The tool used to package applications into snaps.
   Developers use it to create confined, secure, and portable packages.
-    > Get started with [Snapcraft tutorials for packaging and distributing ROS snap applications](/tutorials/snaps-core/index.rst)
+    > Get started with [Snapcraft tutorials for packaging and distributing ROS snap applications](#tutorials-snaps-core-learning-roadmap)
 - **[LXD Containers](https://documentation.ubuntu.com/lxd/en/stable-5.21/)**:
   Lightweight containers used to test applications in
   isolated environments before deployment.
@@ -52,7 +52,7 @@ robotics applications through the following key phases:
 
 - **[Snap Store](https://snapcraft.io/)**:
   The centralized repository for distributing snaps.
-  Once your ROS apps are [packaged with Snapcraft](/tutorials/snaps-core/packaging-ros-application-as-snap.md),
+  Once your ROS apps are [packaged with Snapcraft](#tutorials-snaps-core-packaging-ros-application-getting-started),
   they are uploaded here.
   This store serves both the robot devices and the observability stack.
 
@@ -63,7 +63,7 @@ robotics applications through the following key phases:
   It serves as the base OS on the robot.
 - **ROS Snaps**: Applications and libraries using the Robot Operating System (ROS),
   delivered as snaps and running directly on the robot.
-- **[Observability Agent Snaps](../../tutorials/observability/index.md)**:
+- **[Observability Agent Snaps](#tutorials-observability-learning-roadmap)**:
   Monitoring agents also packaged as snaps,
   deployed on the robot to collect metrics and logs for observability.
 
@@ -72,8 +72,8 @@ robotics applications through the following key phases:
 ```{important}
 We have implemented an observability stack ({{COS_ROB}})
 purposefully for ROS snap applications.
-- Tutorials can be found in the [observability section](../../tutorials/observability/index.md).
-- How-to guides for customization can be found in the [{{COS_ROB}} section](../../how-to-guides/operation/write-configuration-snap-for-cos-for-robotics.md).
+- Tutorials can be found in the [observability section](#tutorials-observability-learning-roadmap).
+- How-to guides for customization can be found in the [{{COS_ROB}} section](#how-tos-operation-snap-configuration-for-cos).
 ```
 
 - **[COS Lite](https://charmhub.io/topics/canonical-observability-stack/editions/lite)**:
