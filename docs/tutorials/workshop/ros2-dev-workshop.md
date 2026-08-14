@@ -2,7 +2,7 @@
 
 # Getting started with Workshop
 
-[**Workshop**](https://canonical-workshop.readthedocs-hosted.com/)
+[**Workshop**](https://ubuntu.com/workshop/docs/)
 is a tool for defining and handling ephemeral development environments.
 
 % Include start summary
@@ -10,7 +10,7 @@ is a tool for defining and handling ephemeral development environments.
 In this tutorial,
 we will see how one can spawn and manage virtual development environments
 tailored for ROS 2 projects using
-[**Workshop**](https://canonical-workshop.readthedocs-hosted.com/).
+[**Workshop**](https://ubuntu.com/workshop/docs/).
 
 % Include stop summary
 
@@ -220,7 +220,7 @@ code --install-extension ms-vscode-remote.remote-ssh
 
 With the plugin installed,
 we can now enable it on our workshop following the
-[workshop documentation](https://canonical-workshop.readthedocs-hosted.com/stable/how-to/develop-with-workshops/connect-vscode/)
+[workshop documentation](https://ubuntu.com/workshop/docs/how-to/develop-with-workshops/connect-vscode/)
 which is summarized hereafter.
 
 First, we add a new SDK to our workshop definition:
