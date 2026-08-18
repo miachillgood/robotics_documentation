@@ -31,33 +31,10 @@ In this documentation
 How this documentation is organized
 -------------------------------------
 
-.. list-table::
-   :header-rows: 0
-   :widths: 50 50
-
-   * - `Tutorials <tutorials>`__
-
-       .. include:: tutorials/index.md
-          :start-after: % Include start summary
-          :end-before: % Include stop summary
-
-     - `How-to guides <how-to-guides>`__
-
-       .. include:: how-to-guides/index.md
-          :start-after: % Include start summary
-          :end-before: % Include stop summary
-
-   * - `Explanation <explanations>`__
-
-       .. include:: explanations/index.md
-          :start-after: % Include start summary
-          :end-before: % Include stop summary
-
-     - `Reference <references>`__
-
-       .. include:: references/index.md
-          :start-after: % Include start summary
-          :end-before: % Include stop summary
+- :doc:`tutorials/index` offer a hands-on, step-by-step introduction to Canonical's robotics solutions.
+- :doc:`how-to-guides/index` cover how to achieve specific goals with Canonical's robotics stack.
+- :doc:`explanations/index` clarifies the core concepts and key topics that underpin Canonical's robotics solutions.
+- :doc:`references/index` provides technical details on specifications, architecture, API documentation, and troubleshooting tips.
 
 Project and community
 =====================
