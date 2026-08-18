@@ -2,13 +2,13 @@
 
 ## How to use this developer guide
 
-In [part 2](packaging-complex-robotics-software-with-snaps.md)
+In {ref}`part 2 <tutorials-snaps-core-packaging-complex-robotics-software-with-snaps>`
 of our developer guide series,
 we saw in fine detail how to create a single snap for a complete robot stack,
 including things like controllers, sensor drivers,
 but also functionalities such as autonomous navigation.
 
-While [part 3](distribute-ros-apps-with-snap-store.md)
+While {ref}`part 3 <tutorials-snaps-core-distribute-ros-apps-with-snap-store>`
 of our series focused on the snap store and the snap release process,
 this developer guide, part 4,
 draws from the example shown in part 2 to exemplify one specific feature of snaps,
@@ -20,12 +20,12 @@ This guide is meant for ROS snap beginners and
 advanced users looking for insights and
 guidelines on implementing ROS snap content sharing.
 This is not a quick tutorial, but rather an in-depth guide.
-Furthermore, these steps assume that you have completed [part 2](packaging-complex-robotics-software-with-snaps.md)
+Furthermore, these steps assume that you have completed {ref}`part 2 <tutorials-snaps-core-packaging-complex-robotics-software-with-snaps>`
 of this series.
 
 ## Packaging complex robotics software with multiple snaps
 
-We have established in [part 2](packaging-complex-robotics-software-with-snaps.md)
+We have established in {ref}`part 2 <tutorials-snaps-core-packaging-complex-robotics-software-with-snaps>`
 the importance of packaging your applications for deployment.
 We also demonstrated this packaging by building a single snap
 that contains the entire software stack for the TurtleBot 3.
@@ -72,7 +72,7 @@ We’ll be using those extensions in this guide.
 
 ## What we will learn
 
-Just like in [part 2](packaging-complex-robotics-software-with-snaps.md),
+Just like in {ref}`part 2 <tutorials-snaps-core-packaging-complex-robotics-software-with-snaps>`,
 we will be deploying a robotics software stack using snaps and snapcraft.
 Following the [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/)
 example, we will divide the monolithic snap presented in part 2 into four (4)
@@ -107,14 +107,14 @@ In this fourth part, we will learn:
 
 ### Requirements
 
-The main requirement is that you have already completed [part 2](packaging-complex-robotics-software-with-snaps.md)
+The main requirement is that you have already completed {ref}`part 2 <tutorials-snaps-core-packaging-complex-robotics-software-with-snaps>`
 of this guide.
 This implies that you are familiar with ROS, Linux and snap/snapcraft.
 
 ### Setup
 
 Since we are reusing part 2 examples, the setup is the same.
-Please [refer back](packaging-complex-robotics-software-with-snaps.md)
+Please {ref}`refer back <tutorials-snaps-core-packaging-complex-robotics-software-with-snaps>`
 for the details of the setup either on your machine or in a virtual machine.
 
 The ROS content sharing feature we are going to employ later
@@ -134,7 +134,7 @@ that are as standalone as possible,
 we need to consider where to draw the line.
 
 Fortunately, the job of identifying the high level functionalities was mostly done in
-[part 2](./packaging-complex-robotics-software-with-snaps.md#identification-of-robot-components)
+{ref}`part 2 <identification-of-robot-components>`
 where we identified the different applications to be exposed by the snap.
 Following the same dotted lines, we will consider the following functionalities:
 

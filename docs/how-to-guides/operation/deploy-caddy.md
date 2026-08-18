@@ -1,3 +1,5 @@
+(how-to-guides-operation-deploy-caddy)=
+
 # Deploy a Caddy file server for {{ COS_ROB }}
 
 ```{warning}

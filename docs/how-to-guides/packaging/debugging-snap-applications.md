@@ -1,3 +1,5 @@
+(how-to-guides-packaging-debugging-snap-applications)=
+
 # Debug Snap Applications
 
 ```{important} Before you start

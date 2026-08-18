@@ -1,3 +1,5 @@
+(tutorials-snaps-core-distribute-ros-apps-with-snap-store)=
+
 # Distribute ROS applications with the Snap Store
 
 ## Distribute ROS applications with the Snap Store
@@ -194,7 +196,8 @@ sudo snap remove yourname-test-ros2-snapstore
 ```
 
 If you had issues following any of the previous steps, please,
-review the developer guide [part 1](packaging-ros-application-as-snap.md) again.
+review the developer guide
+{ref}`part 1 <tutorials-snaps-core-packaging-ros-application-getting-started>` again.
 
 #### Register our snap
 
@@ -324,7 +327,7 @@ select our snap. Then in the "Settings" tab, we can select "Unlisted".
 While we are doing all this process manually here,
 all of this can be integrated into a CI workflow.
 We can find more information in the
-[ROS snap with GitHub Actions](/how-to-guides/packaging/build-and-publish-snap-with-github-actions.md)
+{ref}`ROS snap with GitHub Actions <how-to-guides-packaging-build-and-publish-snap-with-github-actions>`
 documentation.
 
 #### Download our snap

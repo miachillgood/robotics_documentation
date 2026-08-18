@@ -1,3 +1,5 @@
+(tutorials-observability-deploy-cos-for-robotics-server-in-the-cloud)=
+
 # Deploy {{ COS_ROB }} server in the cloud
 
 ```{warning}
@@ -283,4 +285,4 @@ Now that the server is set up,
 let’s see how to deploy and register a device for monitoring.
 
 > **Note**: The device setup is covered in a the next tutorial.
-   You can find it at [Deploy {{ COS_ROB }} agent on your robot](deploy-cos-for-robotics-agent-on-your-robot.md).
+   You can find it at {ref}`tutorials-observability-deploy-cos-for-robotics-agent-on-your-robot`.

@@ -7,14 +7,14 @@ using Workshop.
 
 % Include stop summary
 
-* [Getting started with Workshop](ros2-dev-workshop)
+* {ref}`Getting started with Workshop <tutorials-workshop-ros2-dev-getting-started>`
 
    ```{include} ros2-dev-workshop.md
    :start-after: % Include start summary
    :end-before: % Include stop summary
    ```
 
-* [Customize a workshop for a project](nav2-dev-workshop)
+* {ref}`Customize a workshop for a project <tutorials-workshop-nav2-dev-workshop>`
 
    ```{include} nav2-dev-workshop.md
    :start-after: % Include start summary

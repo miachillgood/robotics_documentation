@@ -1,3 +1,5 @@
+(explanations-snaps-ros-architectures-with-snaps)=
+
 # ROS architectures with snaps
 
 This documentation details different snap architectures that developers can

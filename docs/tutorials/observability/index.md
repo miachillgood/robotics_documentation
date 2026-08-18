@@ -15,11 +15,11 @@ Canonical Observability Stack (COS) for Devices**.
 
 % Include stop summary
 
-* [Deploy {{COS_ROB}} for Robotics server-side](deploy-cos-for-robotics-server-in-the-cloud)
+* {ref}`tutorials-observability-deploy-cos-for-robotics-server-in-the-cloud`
 
    Deploy and set up the server-side of {{COS_ROB}}.
 
-* [Deploy {{COS_ROB}} agent on your robot](deploy-cos-for-robotics-agent-on-your-robot)
+* {ref}`tutorials-observability-deploy-cos-for-robotics-agent-on-your-robot`
 
    Install and configure {{COS_ROB}} agent on a robot.
 

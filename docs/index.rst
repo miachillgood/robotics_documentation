@@ -1,3 +1,5 @@
+.. _docs-index:
+
 Robotics Documentation
 ======================
 
