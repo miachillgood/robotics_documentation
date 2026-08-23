@@ -1,3 +1,5 @@
+(references-esm-package-list)=
+
 # List of ROS ESM packages
 
 % Include start summary

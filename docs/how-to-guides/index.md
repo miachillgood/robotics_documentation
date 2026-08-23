@@ -69,7 +69,7 @@ maintenance/index
    :end-before: % Include stop summary
 ```
 
-* [Hardening your robot](./security/hardening-your-robot.md)
+* {ref}`Hardening your robot <how-to-guides-security-hardening-your-robot>`
 
 ```{toctree}
 :hidden:

@@ -1,7 +1,7 @@
 # Set up a ROS ESM environment
 
 This guide will walk you through setting up
-your environment once you've [enabled ROS ESM](enable-ros-esm.md).
+your environment once you've {ref}`enabled ROS ESM <how-to-guides-maintenance-enable-ros-esm>`.
 
 You have a couple of different choices:
 you can either install the complete ROS distro variant offered by ROS ESM (`ros_base`),
@@ -104,7 +104,7 @@ While such additions will need to pass some scrutiny,
 we fully expect the number of ROS packages included in ESM to grow over time.
 
 If you want to learn more about how to combine ROS ESM and upstream ROS components,
-check out [this guide](combine-esm-and-upstream-ros.md).
+check out {ref}`this guide <how-to-guides-maintenance-combine-esm-and-upstream-ros>`.
 
 To see which packages are currently being supported for each distro,
-see [the current list of ROS packages included in ROS ESM](../../references/esm-package-list.md).
+see {ref}`the current list of ROS packages included in ROS ESM <references-esm-package-list>`.

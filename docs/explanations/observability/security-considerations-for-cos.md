@@ -1,3 +1,5 @@
+(explanations-observability-security-considerations-for-cos)=
+
 # Security considerations for {{ COS_ROB }}
 
 ```{warning}

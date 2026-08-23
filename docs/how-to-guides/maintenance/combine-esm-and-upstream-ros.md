@@ -1,3 +1,5 @@
+(how-to-guides-maintenance-combine-esm-and-upstream-ros)=
+
 # Combine ESM and upstream ROS components
 
 We don't support enabling both ROS ESM as well as the upstream ROS Debian repository.

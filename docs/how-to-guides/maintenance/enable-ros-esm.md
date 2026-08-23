@@ -1,3 +1,5 @@
+(how-to-guides-maintenance-enable-ros-esm)=
+
 # Enable ROS ESM
 
 ROS ESM builds on two Canonical ESM products: `ESM-infra` and `ESM-apps`.

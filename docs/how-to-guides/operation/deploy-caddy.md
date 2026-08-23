@@ -14,7 +14,7 @@ we will deploy a simple Caddy file server
 in the **Canonical Observability Stack (COS) for robotics**.
 We therefore assume that a {{ COS_ROB }} stack is up and running.
 You may refer to the tutorial
-['Deploy {{ COS_ROB }} server in the cloud'](../../tutorials/observability/deploy-cos-for-robotics-server-in-the-cloud.md).
+{ref}`Deploy {{ COS_ROB }} server in the cloud <tutorials-observability-deploy-cos-for-robotics-server-in-the-cloud>`.
 to do so.
 
 By the end of this guide,
@@ -54,4 +54,4 @@ the storage is ready to receive rosbags from the devices.
 
 Now that the storage is set up,
 let’s see how to configure a device to upload rosbags:
-['Send rosbags to {{ COS_ROB }}'](device-send-rosbag.md).
+{ref}`Send rosbags to {{ COS_ROB }} <how-to-guides-operation-device-send-rosbag>`.

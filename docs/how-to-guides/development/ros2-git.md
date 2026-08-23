@@ -14,7 +14,7 @@ We showcase hereafter how Workshop alleviates this task using [Git Worktree](htt
 This how-to guide assumes you are familiar with:
 
 - ROS 2 development and Git workflows
-- [Workshop basics](../../tutorials/workshop/ros2-dev-workshop.md)
+- {ref}`Workshop basics <tutorials-workshop-ros2-dev-getting-started>`
   for creating and launching development environments
 
 ## What is Git Worktree?

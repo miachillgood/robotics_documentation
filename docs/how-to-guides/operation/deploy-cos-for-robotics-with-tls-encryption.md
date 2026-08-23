@@ -25,7 +25,7 @@ while the second will focus on the device.
 
 First, we will proceed by setting up TLS on the server side.
 This guide assumes that {{ COS_ROB }} is up an running.
-You can follow the [main tutorial](../../tutorials/observability/deploy-cos-for-robotics-server-in-the-cloud.md)
+You can follow the {ref}`main tutorial <tutorials-observability-deploy-cos-for-robotics-server-in-the-cloud>`
 to do so.
 From there, we’ll set up TLS for the deployment
 using the [self-signed-certificates charm](https://charmhub.io/self-signed-certificates),
@@ -203,7 +203,7 @@ For Ubuntu Core a system wide solution is not available yet.
 
 ### Install the agents
 
-The [main tutorial](../../tutorials/observability/deploy-cos-for-robotics-agent-on-your-robot.md)
+The {ref}`main tutorial <tutorials-observability-deploy-cos-for-robotics-agent-on-your-robot>`
 shows how to register a device with {{ COS_ROB }} without TLS,
 using the [basic](https://github.com/canonical/rob-cos-demo-configuration)
 configuration snap.
@@ -317,6 +317,6 @@ allowing for full TLS.
 ## Security considerations
 
 Before and after deploying {{ COS_ROB }} with TLS,
-review the [Security considerations for {{ COS_ROB }}](../../explanations/observability/security-considerations-for-cos.md)
+review the {ref}`Security considerations for {{ COS_ROB }} <explanations-observability-security-considerations-for-cos>`
 page for important guidance on CA distribution, certificate renewal,
 device key protection, and known limitations.

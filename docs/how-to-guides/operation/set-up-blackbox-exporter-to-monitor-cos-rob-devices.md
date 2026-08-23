@@ -19,7 +19,7 @@ which can then be scraped by Prometheus and visualized in Grafana.
 
 In this guide,
 we assume that {{ COS_ROB }} has been deployed following the instructions available in
-[this tutorial](../../tutorials/observability/deploy-cos-for-robotics-server-in-the-cloud.md).
+{ref}`this tutorial <tutorials-observability-deploy-cos-for-robotics-server-in-the-cloud>`.
 
 ## Deploy Blackbox Exporter charm
 

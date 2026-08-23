@@ -1,3 +1,5 @@
+(how-to-guides-security-hardening-your-robot)=
+
 # Hardening your robot
 
 <!--
