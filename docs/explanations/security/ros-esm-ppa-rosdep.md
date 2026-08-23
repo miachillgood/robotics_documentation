@@ -1,7 +1,7 @@
 # Interaction between ROS ESM and ROS upstream
 
 When enabling ROS ESM using `pro enable ros` as described in
-[this guide](../../how-to-guides/maintenance/enable-ros-esm.md),
+{ref}`this guide <how-to-guides-maintenance-enable-ros-esm>`,
 some changes are made to `apt` configuration and it's important to be aware
 of those details.
 

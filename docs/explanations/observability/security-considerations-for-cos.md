@@ -17,7 +17,7 @@ make informed decisions when planning and maintaining your deployment.
 
 The root CA certificate must be manually distributed to every device
 and operator laptop, as shown in the
-[Enable TLS encryption in {{ COS_ROB }}](../../how-to-guides/operation/deploy-cos-for-robotics-with-tls-encryption.md).
+{ref}`Enable TLS encryption in {{ COS_ROB }} <how-to-guides-operation-deploy-cos-for-robotics-with-tls-encryption>`.
 Take care to transfer the CA file over a secure channel,
 verify its integrity before installing it,
 and never skip certificate validation to work around distribution issues —

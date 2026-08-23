@@ -59,4 +59,4 @@ for ROS-based systems in production.
 
 If you're running ROS in production, it's important to know
 whether a specific CVE has been patched in your environment.
-To do this, check out [How to check if a CVE is fixed in your environment](../../how-to-guides/maintenance/check-cves.md).
+To do this, check out {ref}`How to check if a CVE is fixed in your environment <how-to-guides-maintenance-check-cves>`.

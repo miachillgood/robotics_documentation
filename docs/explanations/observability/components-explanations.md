@@ -151,4 +151,4 @@ the configuration to all the {{ COS_ROB }} snaps.
 The snap is meant to be used as a reference but
 could be used to try {{ COS_ROB }} on your devices.
 You can find details about how-to write your own configuration file in the documentation:
-[Write configuration snap for {{ COS_ROB }}](../../how-to-guides/operation/write-configuration-snap-for-cos-for-robotics.md).
+{ref}`Write configuration snap for {{ COS_ROB }} <how-tos-operation-snap-configuration-for-cos>`.

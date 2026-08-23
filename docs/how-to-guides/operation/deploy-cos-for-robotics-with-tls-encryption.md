@@ -1,3 +1,5 @@
+(how-to-guides-operation-deploy-cos-for-robotics-with-tls-encryption)=
+
 # Enable TLS encryption in {{ COS_ROB }}
 
 ```{warning}

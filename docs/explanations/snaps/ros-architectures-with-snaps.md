@@ -133,7 +133,7 @@ exchange faster when two
 [`DomainParticipants`](https://fast-dds.docs.eprosima.com/en/latest/fastdds/dds_layer/domain/domainParticipant/domainParticipant.html)
 are on the same host.
 You can enable shared memory across multi snaps with the
-[addition of an extra interface](../../how-to-guides/packaging/ros-2-shared-memory-in-snaps.md).
+{ref}`addition of an extra interface <how-tos-packaging-ros-2-shared-memory-in-snaps>`.
 
 ### Stability
 
