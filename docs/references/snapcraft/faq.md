@@ -185,7 +185,7 @@ GPG key server: keyserver.ubuntu.com
 
 ## ROS snap with shared memory doesn't receive or send data on topic
 
-* If you have properly followed the [ROS snap and shared memory how to guide](#how-tos-packaging-ros-2-shared-memory-in-snaps)
+* If you have properly followed the [ROS snap and shared memory how to guide](#how-to-guides-packaging-ros-2-shared-memory-in-snaps)
   but still have problems,
   make sure that the different processes publishing/subscribing ROS 2 data over
   shared memory are using the same `USER`.
