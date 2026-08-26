@@ -1,4 +1,4 @@
-(how-tos-packaging-ros-2-shared-memory-in-snaps)=
+(how-to-guides-packaging-ros-2-shared-memory-in-snaps)=
 
 # Use ROS 2 shared memory in snaps
 

@@ -133,7 +133,7 @@ If you see something similar to:
   Don’t worry, even if you see this error,
   the messages are going to be transmitted (just not through shared memory).
   If you want to use the shared memory of ROS 2 within snap,
-  visit: [ROS 2 shared memory in snap](#how-tos-packaging-ros-2-shared-memory-in-snaps)
+  visit: [ROS 2 shared memory in snap](#how-to-guides-packaging-ros-2-shared-memory-in-snaps)
 
 ## At runtime, the snap shows an error similar to
 
